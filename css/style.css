@@ -8,7 +8,7 @@
 /*generics*/
 
 body{
-    padding-top: 100px;
+    padding-top: 200px;
     font-family: sans-serif;
 }
 header{
@@ -27,12 +27,27 @@ a{
 ul{
     list-style-type: none;
 }
+main img{
+    display: block;
+}
 
 /*utils*/
 .container{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     border: 2px dashed black;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.column{
+    flex-basis: calc(100% / 3);
+
+}
+.card{
+    width: 324px;
 }
 
 /*header*/
@@ -62,6 +77,11 @@ ul{
 }
 .navbar-icons{
     text-align:right;
+}
+
+/*main*/
+.card >img {
+    width: 100%;
 }
 
 
