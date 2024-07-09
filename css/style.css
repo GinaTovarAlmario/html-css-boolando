@@ -35,7 +35,6 @@ main img{
 .container{
     max-width: 1000px;
     margin: 0 auto;
-    border: 2px dashed black;
 }
 .row{
     display: flex;
@@ -84,12 +83,18 @@ main img{
 .card >img {
     width: 100%;
 }
-.sconto{
+
+.card > .sconto {
     color: white;
     background-color: red;
+    font-size: small;
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
     position: absolute;
     bottom: 150px;
     left: 0;
+    text-align: center;
 }
 .sus{
     color: white;
