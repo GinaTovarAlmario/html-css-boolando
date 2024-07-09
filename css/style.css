@@ -90,12 +90,10 @@ footer{
 .navbar-icons{
     text-align:right;
 }
-
 /*main*/
 .card >img {
     width: 100%;
 }
-
 .card > .sconto {
     color: white;
     background-color: red;
@@ -111,7 +109,18 @@ footer{
 .sus{
     color: white;
     background-color: green;
-    padding: 5px 10px;
+    padding: 6px 10px;
+    position: absolute;
+    right: 174px;
+    bottom: 150px;
+}
+.sus-diff{
+    color: white;
+    background-color: green;
+    padding: 6px 10px;
+    position: absolute;
+    bottom: 150px;
+    left: 0;
 }
 .original-price{
     color: black;
