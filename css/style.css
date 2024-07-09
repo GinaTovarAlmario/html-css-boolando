@@ -37,7 +37,6 @@ footer{
     padding-top: 30px;
     line-height: 20px;
 }
-
 /*utils*/
 .container{
     max-width: 1000px;
@@ -91,7 +90,7 @@ footer{
     text-align:right;
 }
 /*main*/
-.card >img {
+.card img {
     width: 100%;
 }
 .card > .sconto {
@@ -148,3 +147,17 @@ footer{
 .fl-60{
     flex-basis:60%
 }
+/*hover*/
+.product-img .front{
+    display: block;
+}
+.product-img .back{
+    display: none;
+}
+.product-img:hover .front{
+    display: none;   
+}
+.product-img:hover .back{
+    display: block;
+}
+
