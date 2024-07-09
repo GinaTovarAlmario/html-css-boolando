@@ -8,7 +8,7 @@
 /*generics*/
 
 body{
-    padding-top: 200px;
+    padding-top: 100px;
     font-family: sans-serif;
 }
 header{
@@ -48,6 +48,7 @@ main img{
 }
 .card{
     width: 324px;
+    position: relative;
 }
 
 /*header*/
@@ -82,6 +83,14 @@ main img{
 /*main*/
 .card >img {
     width: 100%;
+}
+.sconto{
+    color: white;
+    background-color: red;
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+
 }
 
 
