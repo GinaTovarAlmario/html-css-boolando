@@ -90,7 +90,18 @@ main img{
     position: absolute;
     bottom: 60px;
     left: 0;
-
+}
+.sus{
+    color: white;
+    background-color: green;
+    padding: 5px 10px;
+}
+.final-price{
+    color: red;
+}
+.brand{
+    font-size: small;
+    font-style: italic;
 }
 
 
