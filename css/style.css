@@ -172,5 +172,8 @@ main .fa-heart{
     bottom: 465px;
     right: 0;
     font-size: large;
-
+    cursor: pointer;
+}
+.fa-solid.fa-heart:hover {
+    color: red;
 }
