@@ -10,9 +10,57 @@
 body{
     font-family: sans-serif;
 }
+header{
+    min-height: 80px;
+    color: white;
+    background-color: #ff6900;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
 
 /*utils*/
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    border: 2px dashed black;
+}
+
+.navbar{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.navbar-menu{
+    flex-grow: 1;
+    text-align: left;
+}
+.navbar-menu ul{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 15px;
+}
+#logo{
+    height: 30px;
+}
+.navbar-logo{
+    display: block;
+    text-align:center;
+}
+.navbar-icons{
+    text-align:right;
+}
+
+.fl-20{
+    flex-basis: 20%;
+}
+.fl-60{
+    flex-basis:60%
 }
