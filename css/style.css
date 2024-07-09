@@ -96,6 +96,10 @@ main img{
     background-color: green;
     padding: 5px 10px;
 }
+.original-price{
+    color: black;
+    text-decoration: line-through;
+}
 .final-price{
     color: red;
 }
