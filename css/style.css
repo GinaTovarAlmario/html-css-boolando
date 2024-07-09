@@ -30,11 +30,24 @@ ul{
 main img{
     display: block;
 }
+footer{
+    color: white;
+    background-color: black;
+    font-size: small;
+    padding-top: 30px;
+    text-align: center;
+    line-height: 20px;
+}
 
 /*utils*/
 .container{
     max-width: 1000px;
     margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .row{
     display: flex;
@@ -107,13 +120,19 @@ main img{
 }
 .final-price{
     color: red;
+    font-size: smaller;
+    font-weight: 800;
 }
 .brand{
     font-size: small;
     font-style: italic;
 }
-
-
+.footer-left ul{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 15px;
+}
 /*dimensioni blocchi*/
 .fl-20{
     flex-basis: 20%;
